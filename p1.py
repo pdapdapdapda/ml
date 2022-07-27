@@ -1,4 +1,3 @@
-# Write a Program to Implement Water-Jug problem using Python.
 x = 0
 y = 0
 m = 4

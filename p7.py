@@ -1,4 +1,3 @@
-# Write a program to implement the naïve Bayesian classifier for a sample training data set stored as a .CSV file. Compute the accuracy of the classifier, considering few test data sets.
 from sklearn.metrics import accuracy_score
 from sklearn.model_selection import train_test_split
 import pandas as pd

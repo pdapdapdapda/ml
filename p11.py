@@ -1,5 +1,3 @@
-# Write a program to implement k-Nearest Neighbour algorithm toclassify the iris data set. Print both correct and wrong predictions. Java/Python ML library classes can be used for this problem.
-# OK
 from sklearn.model_selection import train_test_split
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import classification_report, confusion_matrix
@@ -17,11 +15,9 @@ print(y)
 
 x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.3)
 
-# To Training the model and Nearest nighbors K=5
 classifier = KNeighborsClassifier(n_neighbors=5)
 classifier.fit(x_train, y_train)
 
-# To make predictions on our test data
 y_pred = classifier.predict(x_test)
 
 print('Confusion Matrix')
